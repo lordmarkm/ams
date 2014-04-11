@@ -5,7 +5,7 @@
         </encoder>
     </appender>
   
-    <logger name="com.racket" level="debug" />
+    <logger name="com.ams" level="debug" />
  
     <root level="info">
        <appender-ref ref="STDOUT" />

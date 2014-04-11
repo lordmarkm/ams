@@ -26,7 +26,7 @@ import com.baldy.commons.security.services.Roles;
  */
 @Configuration
 @EnableWebSecurity
-@ComponentScan("com.racket.security")
+@ComponentScan("com.ams.security")
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Resource
@@ -61,9 +61,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         .antMatchers("/account/activate/**").permitAll()
         .antMatchers("/account*").authenticated()
         .antMatchers("/account/**").authenticated()
-        .antMatchers("/**/newpost").authenticated()
-        .antMatchers("/**/manage").authenticated()
-        .antMatchers("/comment/post/**").authenticated() //lol POST methods in CommentController
+        .antMatchers("/tenants").authenticated()
 
         .antMatchers("/**").permitAll()
         .and()

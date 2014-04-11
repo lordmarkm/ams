@@ -12,10 +12,14 @@
 
   <dependencies>
 
-    <!-- Core module -->
+    <!-- Core & Security modules -->
     <dependency>
       <groupId>ams</groupId>
       <artifactId>ams-commons-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>ams</groupId>
+      <artifactId>ams-security</artifactId>
     </dependency>
 
     <!-- Individual modules here -->
