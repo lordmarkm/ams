@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 @Configuration
 @ComponentScan(basePackages = {
         "com.baldy.commons.web.config",
-        "com.ams.http.config",
+        "com.ams.http",
         "com.ams.commons.core.config",
 })
 @PropertySource({"classpath:app.properties"})

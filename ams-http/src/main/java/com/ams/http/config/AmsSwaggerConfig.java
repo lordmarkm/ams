@@ -11,7 +11,8 @@ import com.baldy.commons.resourcedoc.config.SwaggerConfig;
 public class AmsSwaggerConfig extends SwaggerConfig {
 
     public static final List<String> AMS_INCLUDE_PATTERNS = Arrays.asList(
-        "/tenants", "/tenants/.*"
+        "/tenants", "/tenants/.*",
+        "/rooms", "/rooms/.*"
     );
 
     @Override

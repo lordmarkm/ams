@@ -1,2 +1,3 @@
+com/ams/http/resource/AuthenticationResource.class
 com/ams/http/config/AmsHttpConfig.class
 com/ams/http/config/AmsSwaggerConfig.class

@@ -3,6 +3,7 @@ com/ams/rental/core/models/RentalBed.class
 com/ams/rental/core/resource/TenantResource.class
 com/ams/rental/core/models/RentalEncounter.class
 com/ams/rental/core/repo/RentalEncounterRepo.class
+com/ams/rental/core/resource/RoomResource.class
 com/ams/rental/core/config/RentalCoreConfig.class
 com/ams/rental/core/models/RentalRoom.class
 com/ams/rental/core/repo/RentalRoomRepo.class
