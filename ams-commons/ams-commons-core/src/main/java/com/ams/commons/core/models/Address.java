@@ -1,9 +1,9 @@
 package com.ams.commons.core.models;
 
 import javax.persistence.Column;
-import javax.persistence.Entity;
+import javax.persistence.Embeddable;
 
-@Entity(name = "ADDRESS")
+@Embeddable
 public class Address {
 
     @Column(name = "STREET")

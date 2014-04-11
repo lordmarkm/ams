@@ -1,9 +1,6 @@
 package com.ams.commons.core.models;
 
-import javax.persistence.Entity;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
-import javax.persistence.ManyToOne;
+import javax.persistence.MappedSuperclass;
 
 import com.baldy.commons.models.BaseBaldyEntity;
 
@@ -11,19 +8,11 @@ import com.baldy.commons.models.BaseBaldyEntity;
  * Room, lobby, etc.
  * @author mbmartinez
  */
-@Entity(name = "LOCATION")
-@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-public class Location extends BaseBaldyEntity {
+@MappedSuperclass
+public abstract class Location<E extends ManagedAsset> extends BaseBaldyEntity {
 
-    @ManyToOne
-    private ManagedAsset asset;
+    public abstract E getAsset();
 
-    public ManagedAsset getAsset() {
-        return asset;
-    }
-
-    public void setAsset(ManagedAsset asset) {
-        this.asset = asset;
-    }
+    public abstract void setAsset(E asset);
 
 }

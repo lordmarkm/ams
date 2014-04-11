@@ -53,6 +53,11 @@
         <artifactId>ams-commons-core</artifactId>
         <version>${project.version}</version>
       </dependency>
+      <dependency>
+        <groupId>ams</groupId>
+        <artifactId>ams-commons-data</artifactId>
+        <version>${project.version}</version>
+      </dependency>
 
       <!-- PROJECT -->
       <dependency>
