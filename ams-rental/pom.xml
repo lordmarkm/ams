@@ -5,11 +5,11 @@
     <artifactId>ams-parent</artifactId>
     <version>1.0</version>
   </parent>
-  <artifactId>ams-commons</artifactId>
+  <groupId>ams-rental</groupId>
+  <artifactId>ams-rental</artifactId>
   <packaging>pom</packaging>
-  <name>Baldy AMS :: Commons</name>
+  <name>AMS :: Rental</name>
   <modules>
-    <module>ams-commons-core</module>
-    <module>ams-commons-data</module>
+    <module>ams-rental-core</module>
   </modules>
 </project>

@@ -5,7 +5,6 @@ import javax.persistence.Embedded;
 import javax.persistence.Entity;
 
 import com.baldy.commons.models.BaseBaldyEntity;
-import com.baldy.commons.models.proper.Address;
 
 /**
  * Not necessarily a person, could be a company, etc. that is capable of owning something.

@@ -1,4 +1,8 @@
-com\ams\commons\core\models\Person.class
-com\ams\commons\core\models\Property.class
-com\ams\commons\core\ref\PropertyType.class
-com\ams\commons\core\models\ManagedAsset.class
+com/ams/commons/core/models/Slot.class
+com/ams/commons/core/models/Location.class
+com/ams/commons/core/models/Property.class
+com/ams/commons/core/models/Encounter.class
+com/ams/commons/core/ref/PropertyType.class
+com/ams/commons/core/models/Address.class
+com/ams/commons/core/models/Person.class
+com/ams/commons/core/models/ManagedAsset.class

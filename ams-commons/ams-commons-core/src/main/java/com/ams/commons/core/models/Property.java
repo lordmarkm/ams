@@ -6,7 +6,6 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 
 import com.ams.commons.core.ref.PropertyType;
-import com.baldy.commons.models.proper.Address;
 
 /**
  * @author Mark
@@ -15,10 +14,10 @@ import com.baldy.commons.models.proper.Address;
 public class Property extends ManagedAsset {
 
     @Embedded
-    private Address address;
+    protected Address address;
 
     @Enumerated(EnumType.STRING)
-    private PropertyType type;
+    protected PropertyType type;
 
     public Address getAddress() {
         return address;

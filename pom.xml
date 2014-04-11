@@ -8,7 +8,8 @@
   <packaging>pom</packaging>
 
   <modules>
-  <module>ams-commons</module>
+    <module>ams-commons</module>
+    <module>ams-rental</module>
   </modules>
 
   <properties>
@@ -46,6 +47,12 @@
 
   <dependencyManagement>
     <dependencies>
+      <!-- AMS -->
+      <dependency>
+        <groupId>ams</groupId>
+        <artifactId>ams-commons-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
 
       <!-- PROJECT -->
       <dependency>
