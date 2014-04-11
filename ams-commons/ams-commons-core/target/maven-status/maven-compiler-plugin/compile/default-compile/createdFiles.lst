@@ -1,0 +1,4 @@
+com\ams\commons\core\models\Person.class
+com\ams\commons\core\models\Property.class
+com\ams\commons\core\ref\PropertyType.class
+com\ams\commons\core\models\ManagedAsset.class
