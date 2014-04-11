@@ -2,7 +2,9 @@
 /home/mbmartinez/git/ams/ams-rental/ams-rental-core/src/main/java/com/ams/rental/core/repo/RentalRoomRepo.java
 /home/mbmartinez/git/ams/ams-rental/ams-rental-core/src/main/java/com/ams/rental/core/repo/RentalEncounterRepo.java
 /home/mbmartinez/git/ams/ams-rental/ams-rental-core/src/main/java/com/ams/rental/core/repo/TenantRepo.java
+/home/mbmartinez/git/ams/ams-rental/ams-rental-core/src/main/java/com/ams/rental/core/resource/TenantResource.java
 /home/mbmartinez/git/ams/ams-rental/ams-rental-core/src/main/java/com/ams/rental/core/models/RentalRoom.java
 /home/mbmartinez/git/ams/ams-rental/ams-rental-core/src/main/java/com/ams/rental/core/models/Tenant.java
 /home/mbmartinez/git/ams/ams-rental/ams-rental-core/src/main/java/com/ams/rental/core/models/RentalBed.java
 /home/mbmartinez/git/ams/ams-rental/ams-rental-core/src/main/java/com/ams/rental/core/models/RentalEncounter.java
+/home/mbmartinez/git/ams/ams-rental/ams-rental-core/src/main/java/com/ams/rental/core/repo/RentalRepos.java

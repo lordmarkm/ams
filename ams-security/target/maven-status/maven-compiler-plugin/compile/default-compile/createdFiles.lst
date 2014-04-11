@@ -1,0 +1,5 @@
+com/ams/security/services/RegistrationService.class
+com/ams/security/services/AmsUserDetailsService.class
+com/ams/security/config/AmsSecurityPersistenceConfig.class
+com/ams/security/config/SecurityConfig.class
+com/ams/security/services/impl/RegistrationServiceImpl.class

@@ -11,6 +11,7 @@
     <module>ams-commons</module>
     <module>ams-rental</module>
     <module>ams-security</module>
+    <module>ams-http</module>
   </modules>
 
   <properties>

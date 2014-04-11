@@ -7,7 +7,7 @@
   </parent>
   <artifactId>ams-commons</artifactId>
   <packaging>pom</packaging>
-  <name>Baldy AMS :: Commons</name>
+  <name>AMS :: Commons</name>
   <modules>
     <module>ams-commons-core</module>
     <module>ams-commons-data</module>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ams-http">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="ams-commons-core-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ams-commons-core/ams-commons-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="baldy-commons-models-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/baldy-commons-models/baldy-commons-models">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="baldy-commons-security-models-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/baldy-commons-security-models/baldy-commons-security-models">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ams-rental-core-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ams-rental-core/ams-rental-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ams-commons-data-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ams-commons-data/ams-commons-data">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="baldy-commons-data-mysql-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/baldy-commons-data-mysql/baldy-commons-data-mysql">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="baldy-commons-web-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/baldy-commons-web/baldy-commons-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="baldy-commons-security-services-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/baldy-commons-security-services/baldy-commons-security-services">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/overlay/prj/baldy-commons-resourcedoc?includes=WEB-INF/classes/swagger.properties&amp;excludes=META-INF/MANIFEST.MF">
+            <dependency-type>consumes</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/overlay/prj/baldy-commons-resourcedoc?includes=**/**&amp;excludes=WEB-INF/classes/swagger.properties">
+            <dependency-type>consumes</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/overlay/slf/?includes=**/**&amp;excludes=META-INF/MANIFEST.MF">
+            <dependency-type>consumes</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="ams-http"/>
+        <property name="java-output-path" value="/ams-http/target/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,8 +1,10 @@
-/home/mbmartinez/git/ams/ams-commons/ams-commons-core/src/main/java/com/ams/commons/core/models/Property.java
 /home/mbmartinez/git/ams/ams-commons/ams-commons-core/src/main/java/com/ams/commons/core/models/Slot.java
-/home/mbmartinez/git/ams/ams-commons/ams-commons-core/src/main/java/com/ams/commons/core/models/Address.java
+/home/mbmartinez/git/ams/ams-commons/ams-commons-core/src/main/java/com/ams/commons/core/models/Property.java
 /home/mbmartinez/git/ams/ams-commons/ams-commons-core/src/main/java/com/ams/commons/core/models/Location.java
+/home/mbmartinez/git/ams/ams-commons/ams-commons-core/src/main/java/com/ams/commons/core/models/Address.java
+/home/mbmartinez/git/ams/ams-commons/ams-commons-core/src/main/java/com/ams/commons/core/config/MapperConfig.java
 /home/mbmartinez/git/ams/ams-commons/ams-commons-core/src/main/java/com/ams/commons/core/ref/PropertyType.java
 /home/mbmartinez/git/ams/ams-commons/ams-commons-core/src/main/java/com/ams/commons/core/models/Person.java
 /home/mbmartinez/git/ams/ams-commons/ams-commons-core/src/main/java/com/ams/commons/core/models/ManagedAsset.java
+/home/mbmartinez/git/ams/ams-commons/ams-commons-core/src/main/java/com/ams/commons/core/config/CoreConfig.java
 /home/mbmartinez/git/ams/ams-commons/ams-commons-core/src/main/java/com/ams/commons/core/models/Encounter.java
