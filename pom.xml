@@ -10,6 +10,7 @@
   <modules>
     <module>ams-commons</module>
     <module>ams-rental</module>
+    <module>ams-security</module>
   </modules>
 
   <properties>
