@@ -13,6 +13,9 @@
         <dependent-module archiveName="baldy-commons-security-models-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/baldy-commons-security-models/baldy-commons-security-models">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="ams-security-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ams-security/ams-security">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="ams-rental-core-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ams-rental-core/ams-rental-core">
             <dependency-type>uses</dependency-type>
         </dependent-module>
