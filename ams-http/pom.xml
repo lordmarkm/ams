@@ -85,7 +85,6 @@
         <groupId>org.mortbay.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
       </plugin>
-
       <!-- Overlay API documentation -->
       <plugin>
         <artifactId>maven-war-plugin</artifactId>

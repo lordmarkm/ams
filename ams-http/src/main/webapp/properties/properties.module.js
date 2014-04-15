@@ -2,25 +2,30 @@ require([
   'angular',
   'angular-ui-router',
   'angular-resource',
+  'angular-animate',
   'angular-ui-bootstrap',
+  'angular-ui-select2',
+  'block-ui',
   'angular-toaster',
-  'properties/properties.module'
+  'ng-table',
+  'ui-scrollfix',
+  'sugar',
+  'autofill',
+  'select2'
 ], function (angular) {
 
   angular.element().ready(function () {
 
-    angular.module('init', ['config.module', 'common.module'])
-      .config(['$stateProvider', function ($stateProvider) {
-        $stateProvider.state('dashboard', {
-          url: '/'
-        });
-      }]);
-
     angular.bootstrap(document, [
       'ui.router',
       'ngResource',
+      'ngAnimate',
       'ui.bootstrap',
-      'init'
+      'ui.select2',
+      'ngTable',
+      'ui.scrollfix'
     ]);
+
   });
+
 });

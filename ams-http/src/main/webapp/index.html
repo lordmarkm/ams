@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login :: Asset Management System</title>
+  <script src="/libs/require.js"></script>
+  <script type="text/javascript">
+    require(['ams']);
+  </script>
+</head>
+<body id="{{$state.current.name}}">
+  <ui-view autoscroll="false">
+    <div class="html-loading">
+      <h4>LOADING</h4>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </ui-view>
+</body>
+</html>
