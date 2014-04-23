@@ -1,26 +1,22 @@
-require([
-  'angular',
-  'angular-ui-router',
-  'angular-resource',
-  'angular-ui-bootstrap',
-  'angular-toaster',
-  'properties/properties.module'
-], function (angular) {
-
-  angular.element().ready(function () {
-
-    angular.module('init', ['config.module', 'common.module'])
-      .config(['$stateProvider', function ($stateProvider) {
-        $stateProvider.state('dashboard', {
-          url: '/'
-        });
-      }]);
-
-    angular.bootstrap(document, [
-      'ui.router',
-      'ngResource',
-      'ui.bootstrap',
-      'init'
-    ]);
-  });
+require.config({
+  paths: {
+    'domReady': '/libs/require/domReady',
+    'angular':  '/libs/angular/angular.min',
+    "uiRouter": '/libs/angular/angular-ui-router.min',
+    'moment' : '/libs/backups/moment.min'
+  },
+  shim: {
+    'angular': {
+      exports: 'angular'
+    },
+    'uiRouter':{
+      deps: ['angular']
+    },
+    'moment': {
+      exports: 'moment'
+    }
+  },
+  deps: [
+   'bootstrap.js'
+  ]
 });
