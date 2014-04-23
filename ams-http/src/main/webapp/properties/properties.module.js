@@ -1,6 +1,6 @@
 require([
   'angular',
-  'angular-ui-router',
+  'uiRouter',
   'angular-resource'
 ], function (angular) {
 
